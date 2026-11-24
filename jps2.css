@@ -1,0 +1,82 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f4f8;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: auto;
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px #ccc;
+        }
+
+        header {
+            background-color: yellow;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            color:yellow;
+        }
+
+        .details {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .card {
+            background-color: #eaf0ff;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+            flex: 1;
+            min-width: 150px;
+        }
+
+        .expense-item {
+            background-color: #f1f3f5;
+            padding: 12px;
+            margin: 8px 0;
+            border-radius: 6px;
+            color: #333;
+        }
+
+        .highest {
+            background-color: #ffe0b2;
+            font-weight: bold;
+            border: 2px solid orange;
+        }
+
+        #balance {
+            font-size: 22px;
+            font-weight: bold;
+        }
+
+        #totalExpense {
+            font-size: 26px;
+            color: #e65100;
+            font-weight: bold;
+        }
+
+        #status {
+            padding: 12px;
+            background-color: #e8f5e9;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            color: gray;
+        }
